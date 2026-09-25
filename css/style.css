@@ -74,3 +74,32 @@ footer {
 .book-card p {
     margin: 8px 0;
 }
+.search-section {
+    margin: 20px 0;
+}
+
+.search-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#book-search {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#book-search:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.no-results {
+    margin-top: 20px;
+    font-style: italic;
+}
